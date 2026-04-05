@@ -31,7 +31,9 @@
             android:layout_height="wrap_content"
             android:hint="Ex : Alami Youssef"
             android:inputType="textPersonName"
-            android:padding="12dp"/>
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textColorHint="#AAAAAA"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -45,7 +47,9 @@
             android:layout_height="wrap_content"
             android:hint="Ex : contact@mail.com"
             android:inputType="textEmailAddress"
-            android:padding="12dp"/>
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textColorHint="#AAAAAA"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -59,7 +63,9 @@
             android:layout_height="wrap_content"
             android:hint="Ex : 0600000000"
             android:inputType="phone"
-            android:padding="12dp"/>
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textColorHint="#AAAAAA"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -73,7 +79,9 @@
             android:layout_height="wrap_content"
             android:hint="Ex : 12, Rue Ibn Battouta"
             android:inputType="textPostalAddress"
-            android:padding="12dp"/>
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textColorHint="#AAAAAA"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -87,7 +95,9 @@
             android:layout_height="wrap_content"
             android:hint="Ex : Casablanca"
             android:inputType="textCapWords"
-            android:padding="12dp"/>
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textColorHint="#AAAAAA"/>
 
         <Button
             android:id="@+id/btnValider"
