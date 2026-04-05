@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fiche Contact"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nom complet"
+            android:textStyle="bold"
+            android:textColor="#555"/>
+        <EditText
+            android:id="@+id/etNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex : Alami Youssef"
+            android:inputType="textPersonName"
+            android:padding="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adresse e-mail"
+            android:textStyle="bold"
+            android:textColor="#555"/>
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex : contact@mail.com"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Numéro de téléphone"
+            android:textStyle="bold"
+            android:textColor="#555"/>
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex : 0600000000"
+            android:inputType="phone"
+            android:padding="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adresse postale"
+            android:textStyle="bold"
+            android:textColor="#555"/>
+        <EditText
+            android:id="@+id/etAdresse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex : 12, Rue Ibn Battouta"
+            android:inputType="textPostalAddress"
+            android:padding="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ville"
+            android:textStyle="bold"
+            android:textColor="#555"/>
+        <EditText
+            android:id="@+id/etVille"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex : Casablanca"
+            android:inputType="textCapWords"
+            android:padding="12dp"/>
+
+        <Button
+            android:id="@+id/btnValider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Valider"
+            android:layout_marginTop="24dp"/>
+
+    </LinearLayout>
+</ScrollView>
